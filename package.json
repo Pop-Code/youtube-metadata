@@ -5,7 +5,7 @@
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "bin": {
-        "yms": "build/cli.ts"
+        "youtube-metadata": "build/cli.ts"
     },
     "scripts": {
         "build": "rm -Rf ./build && tsc -b .",
