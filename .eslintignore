@@ -1,0 +1,6 @@
+**/node_modules/**
+**/build/**
+**/lib/**
+
+#ignore generated types
+packages/types/src/graphql.ts
