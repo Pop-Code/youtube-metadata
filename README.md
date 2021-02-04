@@ -6,7 +6,7 @@
 // using yarn
 yarn add youtube-metadata
 
-//using npm
+// using npm
 npm install youtube-metadata
 ```
 

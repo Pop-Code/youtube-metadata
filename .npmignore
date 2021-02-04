@@ -1,0 +1,12 @@
+.vscode
+src
+.eslintrc.js
+.eslintignore
+.gitignore
+.prettierrc
+jest.config.js
+tsconfig.json
+typedoc.js
+docs
+*.log
+*.tgz
