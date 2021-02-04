@@ -1,11 +1,11 @@
 {
-    "name": "youtube-metadata",
+    "name": "youtube-metadata-scraper",
     "version": "0.0.1",
     "license": "MIT",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "bin": {
-        "youtube-metadata": "build/cli.ts"
+        "youtube-metadata-scraper": "build/cli.ts"
     },
     "scripts": {
         "build": "rm -Rf ./build && tsc -b .",

@@ -1,6 +1,6 @@
 /**
  * @packageDocumentation
- * @module youtube-metadata
+ * @module youtube-metadata-scraper
  */
 export * from './fetch';
 export * from './metadata';

@@ -1,13 +1,13 @@
-# youtube-metadata
+# youtube-metadata-scraper
 
 ## Install
 
 ```sh
 // using yarn
-yarn add youtube-metadata
+yarn add youtube-metadata-scraper
 
 // using npm
-npm install youtube-metadata
+npm install youtube-metadata-scraper
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install youtube-metadata
 ### Scraper
 
 ```ts
-import { scrap } from 'youtube-metadata';
+import { scrap } from 'youtube-metadata-scraper';
 
 scrap('videoId') // pass the videoId
     .then((metadata) => console.log(metadata))
@@ -25,7 +25,7 @@ scrap('videoId') // pass the videoId
 ### Watcher
 
 ```ts
-import { watch } from 'youtube-metadata';
+import { watch } from 'youtube-metadata-scraper';
 
 watch(
     'videoId', // pass the videoId
@@ -38,7 +38,7 @@ watch(
 ### Cli
 
 ```sh
-Usage: youtube-metadata [options] [command]
+Usage: youtube-metadata-scraper [options] [command]
 
 Options:
   -h, --help                 display help for command
